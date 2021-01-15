@@ -1,0 +1,33 @@
+:root {
+    --primary-font-- : 'Yusei Magic', sans-serif;
+}
+
+.card {
+    background: red;
+    color: #ffffff;
+    width: 30%;
+    position: relative;
+
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 300px;
+}
+
+.data {
+    padding: 20px;
+}
+
+.data h1 {
+    text-align: center;
+    font-family: var(--primary-font--);
+}
+
+.data p {
+    background: blue;
+    width: 20%;
+    border-radius: 100px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--primary-font--);
+}

@@ -20,13 +20,13 @@ class Navbar extends React.Component {
                 <nav className="navbar__nav">
                     <ul className="navbar__nav_ul">
                         <Button 
-                            titulo = "response"
+                            titulo = "proyects"
                         />                    
                         <Button 
-                            titulo = "response"
+                            titulo = "tecnologys"
                         />                    
                         <Button 
-                            titulo = "response"
+                            titulo = "snone@gmail.com"
                         />
                     </ul>
                 </nav>
