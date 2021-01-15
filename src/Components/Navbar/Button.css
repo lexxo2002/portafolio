@@ -1,0 +1,16 @@
+:root {
+    --primary-font-- : 'Yusei Magic', sans-serif;
+}
+
+.button__li_a {
+    font-family: var(--primary-font--);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+    color : #ffffff ;
+    text-decoration: none;
+    background:black;
+    border-radius: 50px;
+    margin-right: 50px;    
+}

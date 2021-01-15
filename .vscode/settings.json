@@ -1,0 +1,11 @@
+{
+    // ESTA ES LA FUENTE DE LETRA
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "600" ,
+    "editor.cursorStyle": "block-outline",
+    "editor.wordWrap": "on",
+
+
+
+}

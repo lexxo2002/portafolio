@@ -1,0 +1,28 @@
+:root {
+    --primary-font-- : 'Yusei Magic', sans-serif;
+}
+
+.titulo {
+    font-family: var(--primary-font--);
+    margin-left: 50px;
+}
+
+.navbar {
+    width: 50%;
+    background: #008677;
+    display: flex ;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar__nav {
+    width: 30%;
+    padding-right: 50px;
+}
+
+.navbar__nav_ul {
+    border-radius: 50px;
+    width: 100% ;
+    display: flex ;
+    justify-content: flex-end;
+}
