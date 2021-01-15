@@ -16,9 +16,8 @@ class ParSticles extends React.Component {
     render () {
         return (
             <div className="pars">
-                <Presentacion />
                 <Particles />
-                
+                <Presentacion />
             </div>
         )
     }

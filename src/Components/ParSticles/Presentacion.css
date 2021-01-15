@@ -2,25 +2,40 @@
     --primary-font-- : 'Yusei Magic', sans-serif;
 }
 
+/* STILOS DE LA CARD
+    DATOS
+*/
+
 .card {
     background: red;
     color: #ffffff;
     width: 30%;
-    position: relative;
 
     margin: auto;
     border-radius: 10px;
-    margin-top: 300px;
+    margin-top: -650px;
 }
+
+/*
+    SOLO ES EL PADDIN DEL DE ARRIBA
+*/
 
 .data {
     padding: 20px;
 }
 
+/*
+    ES EL STATE QUE LE PASE 
+*/
+
 .data h1 {
     text-align: center;
     font-family: var(--primary-font--);
 }
+
+/*
+    ES LO QUE HAGO
+*/
 
 .data p {
     background: blue;
