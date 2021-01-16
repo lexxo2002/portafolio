@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFileCode } from "react-icons/fa"
 import './Presentacion.css'
 
 class Presentacion extends React.Component {
@@ -22,7 +23,7 @@ class Presentacion extends React.Component {
                     <h1>
                         { name } { lastname }
                     </h1>
-                    <p>{ dev }</p>
+                    <p>{ dev } { <FaFileCode /> }</p>
                 </div>
 
             </div>

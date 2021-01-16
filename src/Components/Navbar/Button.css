@@ -8,9 +8,10 @@
     height: 100%;
     text-align: center;
     padding: 15px;
-    color : #ffffff ;
+    color : #000000 ;
     text-decoration: none;
-    background:black;
+    background: white;
     border-radius: 50px;
+    display: inline-block;
     margin-right: 50px;    
 }

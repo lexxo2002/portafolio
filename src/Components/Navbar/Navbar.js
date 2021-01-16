@@ -1,4 +1,6 @@
 import React from 'react' 
+import { SiGmail } from 'react-icons/si'
+import { GrTechnology , GrProjects , GrCode } from "react-icons/gr";
 import './Navbar.css'
 import Button from './Button'
 
@@ -21,13 +23,19 @@ class Navbar extends React.Component {
                     <ul className="navbar__nav_ul">
                         <Button 
                             titulo = "proyects"
+                            icon = {<GrProjects />}
                         />                    
                         <Button 
                             titulo = "tecnologys"
+                            icon = {<GrTechnology />}
                         />                    
+                        
                         <Button 
                             titulo = "snone@gmail.com"
+                            icon = {<SiGmail />}
                         />
+                                
+
                     </ul>
                 </nav>
             </div>

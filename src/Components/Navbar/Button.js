@@ -9,9 +9,10 @@ class Button extends React.Component {
     render () {
         const { titulo } = this.props
         return (
-            <a href="#" className="button__li_a">
-                { titulo }
-            </a>
+                <a href="#" className="button__li_a">
+                    { titulo }
+                    { this.props.icon }
+                </a>
         )
     }
 }

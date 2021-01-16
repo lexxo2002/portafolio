@@ -8,6 +8,7 @@
 }
 
 .navbar {
+    position: fixed;
     width: 50%;
     background: #008677;
     display: flex ;
@@ -16,7 +17,7 @@
 }
 
 .navbar__nav {
-    width: 30%;
+    width: 40%;
     padding-right: 50px;
 }
 
@@ -25,4 +26,13 @@
     width: 100% ;
     display: flex ;
     justify-content: flex-end;
+}
+
+/*
+    ICONOS DEL SVG
+*/
+
+svg {
+    margin-left: 10px;
+    margin-bottom: -2px;
 }
