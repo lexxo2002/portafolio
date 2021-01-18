@@ -1,0 +1,40 @@
+:root {
+    --primary-font-- : 'Yusei Magic', sans-serif;
+    --primary-color-- : #ffffff ;
+}
+
+.cardPresentation {
+    color: var(--primary-color--);
+    width: 25%;
+    margin: auto;
+    background: red;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.cardPresentation__h2 {
+    font-family: var(--primary-font--);
+    text-align: center;
+}
+
+.cardPresentation__ocupacion {
+    font-family: var(--primary-font--);
+    text-align: center;
+    padding: 10px;
+}
+
+.cardPresentation__ocupacion {
+    background: blue;
+    width: 30%;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.cardPresentation__ocupacion svg {
+    color: #ffffff;
+}
+
+.cardPresentation__ocupacion > svg > path{
+    width: 100px;
+    padding: 100px;
+}

@@ -1,0 +1,25 @@
+.card {
+    background: green;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card__technologie {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.card__technologie svg {
+    border-radius: 100%;
+}
+
+.card__progress {
+    width: 100%;
+    background: #cccccc;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+}

@@ -1,15 +1,15 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
-import ParSticles from './Components/ParSticles/ParSticles'
-import Tecnologys from './Components/Tecnologys/Tecnologys'
+import Presentation from './Components/Presentation/Presentation'
+import Technologies from './Components/Technologies/Technologies'
 
 class App extends React.Component {
     render () {
         return (
             <div>
                 <Navbar />
-                <ParSticles />
-                <Tecnologys />
+                <Presentation />
+                <Technologies />
             </div>
         )
     }
