@@ -14,9 +14,9 @@ class CardTechnologie extends React.Component {
 
 
                 <div className="card__progress">
-                    <span>
+                    <p>
                         { this.props.porcentage }
-                    </span>
+                    </p>
                 </div>
            </div>
         )

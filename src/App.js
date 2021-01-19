@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Presentation from './Components/Presentation/Presentation'
 import Technologies from './Components/Technologies/Technologies'
+import Proyects from './Components/Proyects/Proyects'
 
 class App extends React.Component {
     render () {
@@ -10,6 +11,7 @@ class App extends React.Component {
                 <Navbar />
                 <Presentation />
                 <Technologies />
+                <Proyects />
             </div>
         )
     }

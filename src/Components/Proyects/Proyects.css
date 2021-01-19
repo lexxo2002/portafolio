@@ -1,0 +1,21 @@
+:root {
+    --primary-font-- : 'Yusei Magic', sans-serif;
+    --primary-color-- : #ffffff ;
+}
+
+.resProyect {
+    color: var(--primary-color--);
+    font-family: var(--primary-font--);
+    width: 100% ;
+    background: red;
+    height: 1000px ; 
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+}
+
+.resProyect h2 {
+    grid-column: span 3;
+    text-align: center;
+    font-size: 70px;
+}
